@@ -144,14 +144,14 @@
 	</div>
 
 	<div class="row">
-		<div class="col-sm-6 d-flex justify-content-center">
+		<div class="col-sm-6 d-flex justify-content-center" id="element2">
 			<div class="feature-container-2">
 				<video autoplay muted loop>
 						<source src="2_1.mp4" type="video/mp4">
 				</video>
 			</div>
 		</div>
-		<div class="col-sm-6 d-flex align-items-lg-center justify-content-lg-center">
+		<div class="col-sm-6 d-flex align-items-lg-center justify-content-lg-center order-sm-1 order-lg-2" id="element1">
 			<p>2. Play the video in Mi App or Mi dance mirror.</p>
 		</div>
 	</div>
@@ -168,14 +168,14 @@
 	</div>
 
 	<div class="row">
-		<div class="col-sm-6">
+		<div class="col-sm-6" id="element4">
 			<div class="feature-container-4">
 				<video autoplay muted loop>
 					<source src="f4.mp4" type="video/mp4">
 				</video>
 			</div>
 		</div>
-		<div class="col-sm-6 d-flex align-items-lg-center justify-content-lg-center">
+		<div class="col-sm-6 d-flex align-items-lg-center justify-content-lg-center" id="element3">
 			<p>4.Voice control the Mi dance mirror.</p>
 		</div>	
 	</div>
@@ -196,14 +196,14 @@
 	</div>
 
 	<div class="row">
-		<div class="col-sm-6">
+		<div class="col-sm-6" id="element6">
 			<div class="feature-container-5">
 				<video autoplay muted loop>
 					<source src="f6.mp4" type="video/mp4">
 				</video>
 			</div>
 		</div>
-		<div class="col-sm-6 d-flex align-items-lg-center justify-content-lg-center">
+		<div class="col-sm-6 d-flex align-items-lg-center justify-content-lg-center" id="element5">
 			<p>6.Voice control the Mi dance mirror.</p>
 		</div>	
 	</div>
@@ -219,7 +219,25 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <!-- Master design bootstrap//// core JavaScript -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
+<!-- Master design bootstrap//// core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	if ($(window).width() < 500) {
+		alert("haha"); 
+		//$("#element1").before($("#element2"));
+		$("#element1").after($("#element2"));
+		$("#element3").after($("#element4"));
+		$("#element5").after($("#element6"));
+
+	  //Add your javascript for large screens here 
+	} 
+	else {
+	  //Add your javascript for small screens here 
+	}
+});
+
+</script>
 </body>
 </html>

@@ -127,6 +127,7 @@ section {
 
 .feature-container-2 {
 	width:90%;
+	min-width: 354px;
 	top:20;
 	right:0;
 	z-index: 1000;
