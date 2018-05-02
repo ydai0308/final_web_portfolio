@@ -5,13 +5,16 @@ General
 ----------------*/
 html {
 	overflow: hidden;
-	}
-body{
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+body {
 	margin: 0px;
 	font-family: "Raleway",sans-serif;
 }
-h1
- {
+h1 {
 	font-weight: 300;
 	letter-spacing: 0.4px;
 	font-family: "Raleway", Sans-serif;
@@ -111,7 +114,8 @@ figure {
 	position: relative;
     overflow: hidden;
     margin: 0 1px 1px 0;
-    background: #726FB9;
+    /*background: #726FB9; */
+    background: #8514FF;
     text-align: center;
     cursor: pointer;	
 }
@@ -151,16 +155,16 @@ figure.effect-bubba img {
 }
 
 figure.effect-bubba:hover img {
-	opacity: 0.4;
+	opacity: 0;
 }
 
 figure.effect-bubba figcaption::before,
 figure.effect-bubba figcaption::after {
 	position: absolute;
-	top: 30px;
-	right: 30px;
-	bottom: 30px;
-	left: 30px;
+	top: 15%;
+	right: 10%;
+	bottom: 15%;
+	left: 10%;
 	content: '';
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -182,11 +186,14 @@ figure.effect-bubba figcaption::after {
 }
 
 figure.effect-bubba h2 {
-    color: #fff;
-    font-size: 15px;
+    color: #F6EEFF;
+    font-size: 200%;
     font-weight: 700;
+    font-family: "Raleway";
+    letter-spacing: 0.6px;
     text-transform: uppercase;
-	padding-top: 30%;
+	padding-top: 25%;
+	opacity: 0;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,-20px,0);
@@ -195,7 +202,7 @@ figure.effect-bubba h2 {
 
 figure.effect-bubba p {
     color: #fff;
-    font-size: 13px;
+    font-size: 100%;
     font-weight: 500;
 	padding: 20px 2.5em;
 	opacity: 0;
