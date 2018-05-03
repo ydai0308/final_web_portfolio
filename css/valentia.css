@@ -103,8 +103,9 @@ width:100%}
 
 .nav-item{margin-top: 50px;}
 
-.logoimg{float: left;
-margin-right: 700px;}
+.logoimg{
+	float: left;
+}
 
 /*//////////////content////*/
 
@@ -113,12 +114,16 @@ margin-right: 700px;}
 .smalldiscription{float: right; padding-top: 15px;
 padding-bottom: 35px;}
 
-.statement{padding-top: 110px;margin-top: 10px;}
+.statement{
+	padding-top: 110px;
+	margin-top: 10px;
+}
 .videoimg{margin-top: 30px;}
 
-.problemimg{float: right;
-position: relative;
-margin-top: -100px}
+.problemimg{
+	float: right;
+	position: relative;
+}
 .problemcontent{
 	
 }
@@ -129,10 +134,10 @@ position: relative;}
 }
 .solution{margin-top: 70px;padding-top: 20px;}
 
-.information_title{margin-top: 130px;}
+.information_title{
+	margin-top: 10%;
+}
 .informationimg{
-	
-	margin-left: 70px;
 	padding-top: -20px;
 }
 
@@ -146,17 +151,18 @@ position: relative;}
 	margin-top: 20px;
 }
 hr{
-	  display: block;
+	display: block;
     margin-top: 5em;
     margin-bottom: 0.5em;
     margin-left: auto;
     margin-right: auto;
    
     border-width: 1px;
-   color:#4E619E;
+    color:#4E619E;
 }
 .taskimg-2 {
 	margin-top: 40px;
+
 }
 #valentia2{
 	margin-top: 50px;
@@ -169,7 +175,6 @@ hr{
 #valentia3{
 	position: relative;
 	margin-top: 50px;
-	width: 100%;
 }
 .Appdesign{
 	margin-top: 50px;
@@ -181,8 +186,9 @@ hr{
 	margin-left: 20px;
 }
 .prototype-2{
-	margin-left: 30px;
+	/*margin-left: 30px;
 	margin-top: 30px;
+	*/
 }
 
 /*///////////////////carousel-indicators"/////////*/
