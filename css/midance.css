@@ -74,12 +74,14 @@ section {
       float: none; } }
 
 /*//////////////////////////nav&logo////////////////*/
-.nav-item{margin-top: 50px;}
-.nav{
-	position:relative;
+#nav_bar {
+	margin-top: 10%;
 }
-.logoimg{float: left;
-margin-right: 700px;}
+.nav_item {
+	position: relative;
+	top: 50%;
+	transform: translateY(50%);
+}
 /*///////////headvideo//////////*/
 .headvideo{margin-top: 30px;}
 

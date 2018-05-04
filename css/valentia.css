@@ -99,14 +99,15 @@ width:100%}
 
 
 
-/*//////////navigation////*/
-
-.nav-item{margin-top: 50px;}
-
-.logoimg{
-	float: left;
+/*//////////////////////////nav&logo////////////////*/
+#nav_bar {
+	margin-top: 10%;
 }
-
+.nav_item {
+	position: relative;
+	top: 50%;
+	transform: translateY(50%);
+}
 /*//////////////content////*/
 
 .deaderimg{margin-top: 30px;}
