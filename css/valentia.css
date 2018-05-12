@@ -52,12 +52,12 @@ h4{
 	font-weight: 300;
 	line-height: 28px;
 	letter-spacing: 0.6px;
-	color: #adadeb;
+	color: #7CB1DF;
 }
 h5{
 	font-family: 'Raleway', sans-serif;
-	font-size: 15px;
-	font-weight: 300;
+	font-size: 16px;
+	font-weight: 350;
 	line-height: 28px;
 	letter-spacing: 0.6px;
 	color: #4E619E;
@@ -94,8 +94,12 @@ width:100%}
 @media (min-width: 768px) and (max-width: 1200px) {
   .navigation {
     background: rgba(0, 0, 0, 0.3); }
-    .navigation .navbar-brand {
+   
+  .navigation .navbar-brand {
       float: none; } }
+
+
+
 
 
 
@@ -105,24 +109,30 @@ width:100%}
 
 .logoimg{
 	float: left;
+	margin-right: 700px;
 }
 
+.nav{
+	position:relative;
+}
 /*//////////////content////*/
 
 .deaderimg{margin-top: 30px;}
+.title-of-the-porject{margin-top: 15px;}
 
 .smalldiscription{float: right; padding-top: 15px;
 padding-bottom: 35px;}
 
 .statement{
-	padding-top: 110px;
-	margin-top: 10px;
+	padding-top:50px;
+	margin-top: 40px;
 }
 .videoimg{margin-top: 30px;}
 
 .problemimg{
 	float: right;
 	position: relative;
+	margin-top: 65px;
 }
 .problemcontent{
 	
