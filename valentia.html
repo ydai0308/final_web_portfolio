@@ -178,30 +178,27 @@
             </ol>
             <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img class="d-block w-100" src="img/p-1.png" alt="First slide">
+                      <img class="carousel-img d-block w-100" src="img/p-1.png" alt="First slide">
                     </div>
 
                     <div class="carousel-item">
-                      <img class="d-block w-100" src="img/p-2.png" alt="Second slide">
+                      <img class="carousel-img d-block w-100" src="img/p-2.png" alt="Second slide">
                     </div>
 
                     <div class="carousel-item">
-                      <img class="d-block w-100" src="img/p-3.png" alt="Third slide"> 
+                      <img class="carousel-img d-block w-100" src="img/p-3.png" alt="Third slide"> 
                     </div>
 
                      <div class="carousel-item">
-                      <img class="d-block w-100" src="img/p-4.png" alt="Third slide"> 
+                      <img class="carousel-img d-block w-100" src="img/p-4.png" alt="Third slide"> 
                     </div>
 
                     <div class="carousel-item">
-                      <img class="d-block w-100" src="img/p-5.png" alt="Third slide"> 
+                      <img class="carousel-img d-block w-100" src="img/p-5.png" alt="Third slide"> 
                     </div>
                     <div class="carousel-item">
-                      <img class="d-block w-100" src="img/p-6.png" alt="Third slide"> 
+                      <img class="carousel-img d-block w-100" src="img/p-6.png" alt="Third slide"> 
                     </div>
-
-
-
             </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -213,6 +210,21 @@
                 <span class="sr-only">Next</span>
                 </a>
     </div>
+
+    <!-- Creates the bootstrap modal where the image will appear -->
+    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img src="" id="imagepreview" style="width: 100%;" >
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
 
  </div>
@@ -345,6 +357,13 @@ $(document).ready(function(){
     } else {
       //Add your javascript for small screens here 
     }
+
+    $(".carousel-img").on("click", function () {
+        //alert("xxx");
+        // here asign the image to the modal when the user click the enlarge link
+        $('#imagepreview').attr('src', $(this).attr('src')); 
+        $('#imagemodal').modal('show');
+    });
 });
 
 </script>

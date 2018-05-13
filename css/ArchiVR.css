@@ -171,3 +171,8 @@ margin-top: 65px;}
 footer{margin-top: 55px;padding-bottom: 30px;padding-top: 20px;}
 
 
+/* image modal */
+.modal-dialog {
+	max-width: 90%;
+}
+

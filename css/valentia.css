@@ -242,9 +242,10 @@ hr{
 .title-1{padding-top: 20px;
 margin-bottom: 170px;}
 
-
-
-
+/* image modal */
+.modal-dialog {
+	max-width: 90%;
+}
 
 
 
