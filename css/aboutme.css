@@ -1,0 +1,155 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400|Raleway:200,300,400,500,700,900);
+/*-----------------------
+General
+----------------*/
+html {
+	
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+video {
+    max-width: 100%;
+    max-height: 100%;
+}
+body{
+	margin: 0px;
+	
+
+     font-family: "Raleway",sans-serif;
+}
+h1
+ {
+	font-weight: 400;
+	letter-spacing: 0.4px;
+	font-family: "Raleway", Sans-serif;
+	color:#8236EA  ;
+	font-size: 30px;
+	line-height: 55px;
+}
+a{
+	font-size: 17px;
+	font-family: "Raleway", Sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.2px;
+	color: #8514ff;
+}
+h5{ font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+	line-height: 35px;
+	/*color:#224058;*/
+	color:#625178;
+   letter-spacing: 0.5px;
+
+}
+
+
+section {
+	/*padding-top:70px;*/
+}
+.container{ 
+ 
+width:100%}
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .navigation {
+    background: rgba(0, 0, 0, 0.3); }
+   
+  .navigation .navbar-brand {
+      float: none; } }
+
+
+
+/*//////////navigation////*/
+
+.nav-item{margin-top: 50px;}
+
+.logoimg{
+	float: left;
+	margin-right: 700px;
+}
+
+.nav{
+	position:relative;
+}
+
+
+
+.mypic{margin-top: 240px;}
+.myname{margin-top: 225px;}
+
+.statement{margin-top: 40px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------
+Footer
+--------------------*/
+
+footer {
+    padding: 30px;
+    background-color:#8514ff;    
+    margin-top: 300px;
+}
+
+footer p {
+    color: #B7B7B7;
+    margin: 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.6px;
+}
+
+footer p a {
+    color: #fff;
+}
+
+footer p a span {
+    color: #FF9F46;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+
+
+
