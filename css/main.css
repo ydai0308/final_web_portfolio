@@ -65,7 +65,16 @@ section {
 }
 
 
+/*//////////////////////////nav&logo////////////////*/
+.navbar_container {
+	padding-top: 2%;
+	padding-right: 0%;
+}
 
+.navbar {
+	padding-left: 0px;
+	margin-left: 0px; 
+}
 
 
 
@@ -78,7 +87,7 @@ section {
 	width: 100%; margin: 0 auto; max-height: 50%; position: relative; z-index: 20;
 	}
 .content {
-	padding: 3em 0;
+	padding: 0;
 	}
 	
 /* PROFILE IMAGE */
@@ -86,8 +95,9 @@ section {
 	max-height: 92px;
 	}
 	
-.texttyped{padding-top: 100px;}
-.nav-item{margin-top: 50px;margin-right: 60px;}
+.texttyped{
+	padding-top: 5%;
+}
 /*my description*/
 .mydescription{padding-top: 30px;
 overflow: auto;}
