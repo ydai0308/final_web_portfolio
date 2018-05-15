@@ -52,12 +52,12 @@ h4{
 	font-weight: 300;
 	line-height: 28px;
 	letter-spacing: 0.6px;
-	color: #7CB1DF;
+	color: #adadeb;
 }
 h5{
 	font-family: 'Raleway', sans-serif;
-	font-size: 16px;
-	font-weight: 350;
+	font-size: 15px;
+	font-weight: 300;
 	line-height: 28px;
 	letter-spacing: 0.6px;
 	color: #4E619E;
@@ -94,43 +94,37 @@ width:100%}
 @media (min-width: 768px) and (max-width: 1200px) {
   .navigation {
     background: rgba(0, 0, 0, 0.3); }
-   
-  .navigation .navbar-brand {
+    .navigation .navbar-brand {
       float: none; } }
 
 
 
-
-/*//////////navigation////*/
-
-.nav-item{margin-top: 50px;}
-
-.logoimg{
-	float: left;
-	margin-right: 700px;
+/*//////////////////////////nav&logo////////////////*/
+.navbar_container {
+	padding-top: 4%;
 }
 
-.nav{
-	position:relative;
+.navbar {
+	padding-left: 0px;
+	margin-left: 0px; 
 }
+
 /*//////////////content////*/
 
 .deaderimg{margin-top: 30px;}
-.title-of-the-porject{margin-top: 15px;}
 
 .smalldiscription{float: right; padding-top: 15px;
 padding-bottom: 35px;}
 
 .statement{
-	padding-top:50px;
-	margin-top: 80px;
+	padding-top: 110px;
+	margin-top: 10px;
 }
 .videoimg{margin-top: 30px;}
 
 .problemimg{
 	float: right;
 	position: relative;
-	margin-top: 65px;
 }
 .problemcontent{
 	
@@ -209,9 +203,6 @@ hr{
 .appdesign{margin-top: 100pxh1	}
 
 
-
-
-.click{margin-top: -30px;}
 /*/////////*/
 .moodboard{
 	margin-top: 100px;
@@ -235,7 +226,7 @@ hr{
 }
 
 .Related-works{
-	margin-bottom: 10px;margin-top: 60px;
+	margin-bottom: 40px;
 }
 
 /*/////////////*/
@@ -243,10 +234,9 @@ hr{
 .title-1{padding-top: 20px;
 margin-bottom: 170px;}
 
-/* image modal */
-.modal-dialog {
-	max-width: 90%;
-}
 
-.link{margin-top: 120px;margin-bottom: 85px;}
+
+
+
+
 
