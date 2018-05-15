@@ -97,30 +97,19 @@ section {
 width:100%}
 
 
-@media (min-width: 768px) and (max-width: 1200px) {
-  .navigation {
-    background: rgba(0, 0, 0, 0.3); }
-   
-  .navigation .navbar-brand {
-      float: none; } }
 
-
-
-
-
-
-/*//////////navigation////*/
-
-.nav-item{margin-top: 50px;}
-
-.logoimg{
-	float: left;
-	margin-right: 700px;
+/*//////////////////////////nav&logo////////////////*/
+.navbar_container {
+	padding-top: 4%;
 }
 
-.nav{
-	position:relative;
+.navbar {
+	padding-left: 0px;
+	margin-left: 0px; 
 }
+
+
+
 
 /*//////////deaderimg////*/
 .deaderimg{margin-top: 30px;}

@@ -85,18 +85,16 @@ h5{
       float: none; } }
 
 
-/*//////////navigation////*/
-
-.nav-item{margin-top: 50px;}
-
-.logoimg{
-	float: left;
-	margin-right: 700px;
+/*//////////////////////////nav&logo////////////////*/
+.navbar_container {
+	padding-top: 4%;
 }
 
-.nav{
-	position:relative;
+.navbar {
+	padding-left: 0px;
+	margin-left: 0px; 
 }
+
 /*///////////headvideo//////////*/
 .headvideo{margin-top: 30px;}
 
