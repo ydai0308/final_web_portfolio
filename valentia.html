@@ -19,31 +19,30 @@
 
 </head>
 <body>
-    <div class="container navbar_container">
+ <div class="container navbar_container">
+    <nav class="navbar navbar-expand-md navbar-light">
+      <!-- Brand -->
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo2.png" width="150px">
+      </a>
 
-<nav class="navbar navbar-expand-md navbar-light">
-  <!-- Brand -->
-  <a class="navbar-brand" href="index.html">
-    <img src="img/logo2.png" width="150px">
-  </a>
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <!-- Toggler/collapsibe Button -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <!-- Navbar links -->
-  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-    <ul class="navbar-nav" >
-      <li class="nav-item">
-          <a class="nav-link " href="index.html">Projects</a>
-      </li>
-      <li class="nav-item">
-          <a class="nav-link " href="aboutme.html">About me</a>
-      </li> 
-    </ul>
-  </div> 
-</nav>
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+        <ul class="navbar-nav" >
+          <li class="nav-item">
+              <a class="nav-link " href="index.html">Projects</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link " href="aboutme.html">About me</a>
+          </li> 
+        </ul>
+      </div> 
+    </nav>
 </div>
 
 <!-- ///////header//// -->
@@ -138,7 +137,7 @@
             </div>
 
             <div class="col-lg-9 d-flex justify-content-end">
-                <video autoplay muted loop id="valentia1">
+                <video autoplay muted loop>
                 <source src="valentia-1.mp4" type="video/mp4">
                 </video>
             </div>
@@ -235,8 +234,8 @@
     </div>
 
 
-            <div class="row">
-                <div class="col-sm-6">
+            <div id="click_to_enlarge">
+                <div class="d-flex justify-content-center">
                     <h5 class="click">Click to enlarge the image.</h5>
                 </div>
             </div>
@@ -281,24 +280,17 @@
             </div>
         </div>
 
-
-
-
-
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    <div class="link">
-
-                            <a class="linktocase" href="https://drive.google.com/file/d/1gdlxU1ieNGCxZ450vKSbjGlG7v7IQWnk/view?usp=sharing">
-                           <button type="button" class="btn btn-primary btn-lg">Check the full case study</button>
-                        </a>
-                    </div>
-                    
+        <div class="row" id="case-button">
+            <div class="col-sm-12 text-center">
+                <div class="link">
+                <a class="linktocase" href="https://drive.google.com/file/d/1gdlxU1ieNGCxZ450vKSbjGlG7v7IQWnk/view?usp=sharing">
+                    <button type="button" class="btn btn-primary btn-lg">Check the full case study</button>
+                </a>
                 </div>
+                
             </div>
+        </div>
 
-
- 
       <div class="row">
         <div class="col-sm-12 text-center">
             <h1 class="Related-works">
@@ -345,13 +337,6 @@
 
 </div>
 
-
-
-
-
-<p id="back-top">
-    <a href="#top"><i class="fa fa-angle-up"></i></a>
-</p>
 
 <footer>
     <div class="container text-center">
