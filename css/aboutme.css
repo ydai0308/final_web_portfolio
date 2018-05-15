@@ -52,72 +52,24 @@ h5{ font-family: 'Raleway', sans-serif;
 section {
 	/*padding-top:70px;*/
 }
-.container{ 
- 
-width:100%}
-
-
-@media (min-width: 768px) and (max-width: 1200px) {
-  .navigation {
-    background: rgba(0, 0, 0, 0.3); }
-   
-  .navigation .navbar-brand {
-      float: none; } }
-
-
-
-/*//////////navigation////*/
-
-.nav-item{margin-top: 50px;}
-
-.logoimg{
-	float: left;
-	margin-right: 700px;
+.container { 
+	width:100%;
 }
 
-.nav{
-	position:relative;
+/*//////////////////////////nav&logo////////////////*/
+.navbar_container {
+	padding-top: 4%;
 }
 
+.navbar {
+	padding-left: 0px;
+	margin-left: 0px; 
+}
 
+.mypic{margin-top: 20%;}
+.myname{margin-top: 20%;}
 
-.mypic{margin-top: 240px;}
-.myname{margin-top: 225px;}
-
-.statement{margin-top: 40px;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.statement{margin-top: 5%;}
 
 
 /*--------------------
@@ -127,7 +79,7 @@ Footer
 footer {
     padding: 30px;
     background-color:#8514ff;    
-    margin-top: 300px;
+    margin-top: 20%;
 }
 
 footer p {

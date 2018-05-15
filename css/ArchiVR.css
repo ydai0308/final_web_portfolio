@@ -128,8 +128,11 @@ padding-bottom: 35px;}
 }
 
 .problem{margin-top: 20px;margin-bottom: 20px;}
-.VR-img{margin-top: 70px;float: right;
-position: relative;}
+
+.VR-img{
+	padding: 8%;	
+	position: relative;
+}
 
 /*/////////appdesign//////*/
 .appdesign{margin-top: 65px;}
